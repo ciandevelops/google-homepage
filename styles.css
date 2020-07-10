@@ -1,4 +1,60 @@
-* {
+*{
     margin: 0;
     padding: 0;
+}
+.container {
+    height: 100%;
+    width: 100%;
+
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #727272;
+    padding-left: 15px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.right {
+    float: right;
+}
+
+.logo {
+    padding-top: 109px;
+    text-align: center;
+}
+
+.textField, .buttons, p{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.field {
+    border-radius: 80px;
+    width: 585px;
+    height: 45px;
+}
+
+.btns {
+    height: 35px;
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
 }
